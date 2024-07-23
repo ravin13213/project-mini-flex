@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing:border-box;
+}
+  /* <!-- global message --> */
+  .global{
+    background: skyblue;
+    height:50px ;
+  
+  }
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+  /* .container{
+    width: 80%;
+    margin: auto;
+    
+    
+  } */
+
+
+
+     /* <!-- header section --> */
+
+     /* <!-- hero section --> */
+
+     /* <!-- latest post section --> */
+
+     /* <!-- Recommendation  --> */
+
+     /* <!-- Subscriber section --> */
+
+     /* <!-- footer --> */
