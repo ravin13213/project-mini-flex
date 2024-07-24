@@ -1,36 +1,84 @@
-body{
-    margin: 0;
-}
 *{
-    box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-  /* <!-- global message --> */
-  .global{
-    background: skyblue;
-    height:50px ;
-  
-  }
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-}
-  /* .container{
-    width: 80%;
-    margin: auto;
-    
-    
-  } */
-
 
 
      /* <!-- header section --> */
+     .global-header{
+      display: flex;
+      /* background: #2d92e4; */
+      justify-content: space-between;
+      width: 80%;
+     
+      margin: 0px auto;
+      height: 40px;
+      align-items: center;
+     }
+     .global{
+      background: #6eb0ee;
+     }
+     
+    header .container{
+      display: flex;
+      justify-content: space-between;
+      color: azure;
+      height: 60px;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+    .list{
+      display: flex;
+      justify-content: space-around;
+    }
+    li{
+      margin-left: 20px;
+    }
+    header{
+      background-color: blue;
+    }
+    img{
+      height: 800px;
+      width: 100%;
+    }
+    .hero{
+      position: relative;
+      text-align: center;
+      color: #e7ecf0;
+    }
+    .span{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size:xx-large;
+
+    }
+
+
+
+
+    .
 
      /* <!-- hero section --> */
 
      /* <!-- latest post section --> */
+     section{
+      display: flex;
+      background-image: "pic.jpg";
+      opacity: var(#2d92e4);
+      flex-wrap: wrap;
+     }
+    section span{
+      color: blueviolet;
+      width: 100px;
+      height: 300ox;
+      
+    }
+     /* */
+     
 
      /* <!-- Recommendation  --> */
 
